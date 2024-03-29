@@ -28,7 +28,9 @@
                                 &kp LALT  &kp LGUI  &mo 0   &kp SPACE    &kp RET  &mo 0   &kp BSPC  &kp RIGHT_CONTROL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
     };
 };
