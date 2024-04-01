@@ -30,14 +30,14 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp RIGHT LEFT>,
+                <&inc_dec_kp LEFT RIGHT>,
                 <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         layer_1 {
             bindings = <
-&kp TILDE  &trans  &trans          &trans          &trans           &kp HOME                         &trans  &trans   &trans            &trans             &trans  &kp PLUS
-&trans     &trans  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                      &trans  &trans   &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans  &trans
+&kp GRAVE  &trans  &trans          &trans          &trans           &kp HOME                         &trans  &trans   &trans            &trans             &trans  &kp PLUS
+&trans     &trans  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                      &trans  &trans   &trans            &trans             &trans  &trans
 &trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN                    &trans  &trans   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
 &trans     &trans  &trans          &trans          &trans           &kp END        &trans    &trans  &trans  &trans   &trans            &trans             &trans  &trans
                                    &trans          &trans           &trans         &trans    &trans  &trans  &kp DEL  &trans
