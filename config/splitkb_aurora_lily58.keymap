@@ -49,11 +49,11 @@
 
         control {
             bindings = <
-&kp GRAVE  &trans  &trans          &trans          &trans           &kp HOME                         &trans  &trans   &trans            &trans             &trans  &kp EQUAL
-&trans     &trans  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                      &trans  &trans   &trans            &trans             &trans  &trans
-&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN                    &trans  &trans   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
-&trans     &trans  &trans          &trans          &trans           &kp END        &trans    &trans  &trans  &trans   &trans            &trans             &trans  &trans
-                                   &trans          &trans           &trans         &trans    &trans  &trans  &kp DEL  &trans
+&kp GRAVE  &trans  &trans          &trans          &trans           &kp HOME                         &trans      &trans  &trans            &trans             &trans  &kp EQUAL
+&trans     &trans  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                      &trans      &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans  &trans
+&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN                    &trans      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans
+&trans     &trans  &trans          &trans          &trans           &kp END        &trans    &trans  &trans      &trans  &kp LESS_THAN     &kp GREATER_THAN   &trans  &trans
+                                   &trans          &trans           &trans         &trans    &trans  &kp DELETE  &trans  &trans
             >;
         };
 
